@@ -1,0 +1,91 @@
+.sidebar {
+  margin-top: 100px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f8f7de;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #c75643;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #a20a0a;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #ffdada;
+  color: #ea2c62;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #ffdada;
+}
+/*--single product--*/
+.single-product{
+  margin-top: 80px;
+}
+.single-product .col-12 col-md-6 img{
+  padding: 10px;
+}
+.single-product .col-12 col-md-6 h4{
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.single-product input{
+ width: 50px;
+ height: 40px;
+ padding: 10px;
+ font-size: 20px;
+ margin-right: 10px;
+ border:1px solid #ff523b;
+}
+input:focus{
+  outline: none;
+}
+.clickable{
+  border:1px solid black;
+  cursor: pointer;
+
+}
+.Button{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #3fab90;
+  padding: 9px 20px 8px 19px;
+  text-decoration: none;
+}
+
+.Button:hover {
+  background: #ff0808;
+  text-decoration: none;
+}

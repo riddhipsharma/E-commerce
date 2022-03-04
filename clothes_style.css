@@ -1,0 +1,150 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #D5E9DD;
+  font-family: 'Playfair Display SC', serif;
+  color: #826F3E;
+  font-size: 1.2rem;
+  min-height: 100vh;
+}
+.content{
+  font-family: 'Poppins', sans-serif;
+  color:#264653;
+  font-size: 2rem;
+}
+
+.products{
+  height: 50%;
+  width: 60%;
+ z-index: 18;
+  background-color:#daf5ff;
+}
+
+.col-lg-3{
+  flex-basis: 30%;
+  padding: 5px;
+  min-width:200px;
+  margin-bottom: 50px;
+  transition: transform 0.6s;
+}
+.col-lg-3 img{
+  width: 70%
+}
+h2{
+font-family: 'Philosopher', sans-serif;
+  font-weight: bold;
+  color: #1f6f8b;
+
+}
+.title{
+  text-align: center;
+  position: relative;
+  line-height: 40px;
+  color:#8f384d;
+  text-decoration: underline;
+
+}
+h4{
+  font-family: 'Scada', sans-serif;
+  font-weight: normal;
+  color:#1d2d50;
+}
+.rating .fa{
+  color:#00a8cc;
+}
+.col-lg-3:hover{
+  transform: translateY(-5px);
+
+}
+.offer{
+  background-color: #f2dcbb;
+}
+p{
+  font-family: 'Scada', sans-serif;
+  color: #ec5858;
+  font-weight:bolder;
+  margin-top: 80px;
+  margin-bottom: 20px;
+
+}
+.btn{
+  background:    #8db596;
+border-radius: 11px;
+padding:       17px 38px;
+color:         #d08752;
+display:       inline-block;
+font:          normal bold 17px/1 "Open Sans", sans-serif;
+text-align:    center;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/*--testimonial--*/
+.testimonial{
+  padding-top: 100px;
+  font-size: 1rem
+}
+.testimonial .col-3{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow:0 0 20px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.5;
+}
+.testimonial .col-3 img{
+  width:50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.testimonial .col-3:hover{
+  transform:translateY(-10px;);
+}
+/*--footer--*/
+.footer{
+  background: #060930;
+  font-size: 10px;
+  padding: 60px 0 20px;
+  color:#ebebeb;
+}
+.footer h3{
+  color:#ebebeb;
+  margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3{
+  min-width: 250px;
+  margin-bottom: 15px;
+}
+.footer-col-1{
+  flex-basis: 30%;
+}
+.footer-col-2{
+  flex:1;
+  text-align: :center;
+}
+.footer-col-2 img{
+  width: 180px;
+  margin-bottom: 20px;
+}
+.footer-col-3{
+  flex-basis: 12%;
+  text-align: centre;
+}
+ul{
+  list-style-type: none;
+}
+.footer hr{
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright{
+  text-align: center;
+}

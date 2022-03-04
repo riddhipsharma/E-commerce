@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="clothes_style.css" rel="stylesheet">
+    <link rel="stylesheet" href="clothtest.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Playfair+Display:wght@400;700&family=Poppins:wght@300&family=Scada&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+    <title>E-Commerce~Syrup</title>
+  </head>
+  <body>
+    <nav class="navbar  sticky-top navbar-expand-md navbar-light" style="background-color:#B3DCC3" >
+    <a href="#" class="navbar-brand"><img src="images/logo.png"></a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+ <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link active">Home</a>
+            <a href="#" class="nav-item nav-link active">Contact</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link  active dropdown-toggle" data-toggle="dropdown">Shops</a>
+                <div class="dropdown-menu">
+                    <a href="clothes.html" class="dropdown-item">Clothing</a>
+                         <!-- <div class="dropdown-menu">
+                           <a href="#" class="dropdown-item">a</a>
+                           <a href="#" class="dropdown-item">P</a>
+                           <a href="#" class="dropdown-item">c</a>
+                         </div> -->
+                    <a href="electronic.html" class="dropdown-item">Electronics</a>
+                    <a href="pharma.html" class="dropdown-item">Pharmacy</a>
+                </div>
+            </div>
+              <a href="#" class="nav-item nav-link"><img src="images/cart.png"></a>
+        </div>
+        <form class="form-inline">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-secondary"><i class="fa fa-search" color:#264653;></i></button>
+                </div>
+            </div>
+        </form>
+        <div class="navbar-nav ">
+            <a href="#" class="nav-item nav-link"><img src="images/login.png"></a>
+        </div>
+    </div>
+</nav>
+<!--start of side menu-->
+<section>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="pharma.html">Syrups</a>
+  <a href="capsule.html">Capsule</a>
+  <a href="ointment.html">Tablet</a>
+  <a href="ointment.html">ointment</a>
+</div>
+
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+  <br>
+</div>
+
+<!--end of side menu-->
+<!-- product page -->
+<div class="small-container single-product">
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <img src="images/pharm/syrup/image 2.jpg" width="80%" alt="">
+    </div>
+    <div class="col-12 col-md-6">
+      <p>Home/Syrup</p>
+      <h1>CHERICOF</h1>
+      <h4>Rs.92/100ml</h4>
+      <input type="number" name="" value="1">
+      <a href="#" class="openbtn">Add To Cart</a>
+      <br>
+      <h3>Product-Detail</h3>
+      <p>Chericof-LS Syrup is combination medicine used to relieve symptoms such as wheeaing,
+      shortness of breath,chest tightness,breathing difficulties,coughing etc. caused by bronchospasm in condition
+    such as asthma, chronic bronchitis, chronic obstructive pulmonary disease(COPD),etc.</p>
+    </div>
+  </div>
+</div>
+  <!-- Footer -->
+</section>
+<script src="test.js"></script>
+  </body>
+</html>
